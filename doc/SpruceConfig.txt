@@ -1,0 +1,29 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│|>                                                                            │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+*SpruceConfig.txt*  Open configuration files
+
+Usage: >
+    :SpruceConfig [OPTIONS] FILE
+
+Description: ~
+    Open configuration files
+
+Options: ~
+    --exit          Close the currently opened configuration file
+    --help          Display this help message
+    --init          Open the init.lua configuration file
+    --config        Open the config/init.lua configuration file
+    --custom [NAME] Open a user custom [NAME] configuration file
+    [NAME]          Open [NAME] configuration file
+
+Arguments: ~
+    FILE            Name of the configuration file to open
+                    Available options: mapping, options, globals, plugins
+
+Examples: ~
+    :SpruceConfig mapping     `Open the mapping configuration file`
+    :SpruceConfig --exit      `Close the currently opened configuration file`
+    :SpruceConfig --help      `Display this help message`
+
